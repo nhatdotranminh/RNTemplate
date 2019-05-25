@@ -1,0 +1,60 @@
+{
+  "homeScreen": "Home Screen",
+  "home": "Home",
+  "aScreen": "A Screen",
+  "aDetailScreen": "A Detail Screen",
+  "bScreen": "B Screen",
+  "logout": "Logout",
+  "splash_screen": {
+    "label": "iBroker.vn",
+    "introduce": "Cộng đồng môi giới thông minh",
+    "version": "Version 3.0.1"
+  },
+  "userAuth": {
+    "enterPhone": "Nhập số điện thoại",
+    "enterPassword": "Nhập mật khẩu",
+    "enterName": "Nhập tên hiển thị",
+    "enterPhoneNumberSignUp": "Nhập số điện thoại đắng ký"
+  },
+  "login": {
+    "title": "Đăng nhập",
+    "content": "Dễ dàng đăng tin, lưu, bình luận và tương tác cùng những nhà môi giới khác. ",
+    "notYetHaveAccount": "Tôi chưa có tài khoản?",
+    "signUpNow": "Đăng ký ngay"
+  },
+  "forgot": {
+    "title": "Quên mật khẩu",
+    "content": "Vui lòng nhập số điện thoại đăng ký để nhận lại mật khẩu của bạn."
+  },
+  "signUp": {
+    "title": "Đăng ký",
+    "content": "Chỉ mất 30s để khám phá tất cả các tính năng của mạng xã hội môi giới thông minh. ",
+    "iAgreeWith": "Tôi đồng ý với những",
+    "iHaveAnAccount": "Tôi đã có tài khoản?",
+  },
+  "btn": {
+    "signIn": "Đăng nhập",
+    "signUp": "Đăng ký",
+    "forgot": "Quên mật khẩu",
+    "privacyAndPolicy": "Điều khoản & điều lệ",
+    "resetPassword": "Lấy mật khẩu",
+    "resendCode": "Gửi lại mã",
+    "confirm": "Xác nhận"
+  },
+  "otp": {
+    "title": "Nhập mã OTP",
+    "content": "Một mã OTP vừa gửi đến số điện thoại của bạn, vui lòng nhập mã để xác nhận.",
+  },
+  "onBoarding": {
+    "title": "Khởi đầu mới thuận lợi",
+    "content": "Rất nhiều cơ hội hợp tác đang chờ đợi bạn khám phá, đừng dễ dàng bỏ qua!"
+  },
+  "error": {
+    "hasError": "Đã xảy ra lỗi",
+    "enterPhone": "Vui lòng nhập số điện thoại",
+    "enterPassword": "Vui lòng nhập mật khẩu",
+    "enterName": "Vui lòng nhập tên hiển thị",
+    "enterEnoughInfor": "Vui lòng nhập đầy đủ thông tin",
+    "enterOtpCode": "Vui lòng nhập đầy đủ mã xác nhận"
+  }
+}

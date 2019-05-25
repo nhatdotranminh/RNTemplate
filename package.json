@@ -1,0 +1,62 @@
+{
+  "name": "IBrokerV3",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "clean": "rm -rf $TMPDIR/react-* && watchman watch-del-all && npm cache clean --force",
+    "clean:android": "cd android/ && ./gradlew clean && cd .. && react-native run-android",
+    "newclear": "rm -rf $TMPDIR/react-* && watchman watch-del-all && rm -rf ios/build && rm -rf node_modules/ && npm cache clean --force && npm i",
+    "i": "react-native run-ios",
+    "i6": "react-native run-ios --simulator='iPhone 6'",
+    "ix": "react-native run-ios --simulator='iPhone X'",
+    "a": "react-native run-android"
+  },
+  "dependencies": {
+    "apisauce": "^1.0.2",
+    "format-json": "^1.0.3",
+    "i18n-js": "^3.2.1",
+    "identity-obj-proxy": "^3.0.0",
+    "lodash": "^4.17.11",
+    "prop-types": "15.6.0",
+    "querystringify": "2.1.0",
+    "ramda": "^0.26.1",
+    "react": "16.8.3",
+    "react-native": "0.59.5",
+    "react-native-device-info": "^1.6.1",
+    "react-native-extended-stylesheet": "^0.11.1",
+    "react-native-gesture-handler": "1.0.9",
+    "react-native-smart-splash-screen": "^2.3.5",
+    "react-native-vector-icons": "6.1.0",
+    "react-navigation": "3.0.0",
+    "react-navigation-redux-helpers": "^2.0.6",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^1.0.0",
+    "reduxsauce": "1.0.1",
+    "rn-host-detect": "^1.1.5",
+    "seamless-immutable": "^7.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "babel-jest": "^24.7.1",
+    "babel-plugin-ignite-ignore-reactotron": "^0.3.0",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3",
+    "reactotron-react-native": "^2.1.0",
+    "reactotron-redux": "^2.1.0",
+    "reactotron-redux-saga": "^4.2.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/Assets/Fonts/"
+    ]
+  }
+}
